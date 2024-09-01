@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:#B0B0B0;
+    color: black;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 40px;
+    font-family: monospace;
+    font-weight: bolder;
+    color: #003366;
+}
+
+.cards-blog{
+    margin: 15px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.read-more {
+    margin-top: auto; /* Empurra o link "Leia mais" para o fim do card-body */
+    align-self: flex-start; /* Alinha o link à esquerda */
+}
